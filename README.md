@@ -11,7 +11,7 @@ or get the [CI build](https://www.vsixgallery.com/extension/75295161-4c91-4eea-8
 
 Coming soon...
 
-[DemoProject.zip](vszip://github.com/madskristensen/OpenZipProject/raw/master/DemoProject.zip)
+[DemoProject.zip](https://tinyurl.com/ybjqrqpu)
 
 ## License
 [Apache 2.0](LICENSE)
