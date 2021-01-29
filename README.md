@@ -1,6 +1,6 @@
 # Open Zip Projects in VS
 
-[![Build status](https://ci.appveyor.com/api/projects/status/j8mx6l6c97yemm2t?svg=true)](https://ci.appveyor.com/project/madskristensen/codetourvs)
+[![Build status](https://ci.appveyor.com/api/projects/status/j108ft197q68pun9?svg=true)](https://ci.appveyor.com/project/madskristensen/openzipproject)
 
 Allows you to open projects that have been zipped up into .zip files either from the local file sytem or remote URLs
 
