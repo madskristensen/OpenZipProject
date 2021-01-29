@@ -11,5 +11,7 @@ or get the [CI build](https://www.vsixgallery.com/extension/75295161-4c91-4eea-8
 
 Coming soon...
 
+[DemoProject.zip](DemoProject.zip)
+
 ## License
 [Apache 2.0](LICENSE)
