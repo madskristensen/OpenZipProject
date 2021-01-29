@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CommandTable xmlns="http://schemas.microsoft.com/VisualStudio/2005-10-18/CommandTable" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <Extern href="stdidcmd.h"/>
+  <Extern href="vsshlids.h"/>
+
+  <Commands package="guidPackage">
+    <Groups>
+      <Group guid="guidOpenZipProjectCmd" id="MyMenuGroup" priority="0x0600">
+        <Parent guid="guidSHLMainMenu" id="IDM_VS_MENU_TOOLS"/>
+      </Group>
+    </Groups>
+
+    <Buttons>
+      <Button guid="guidOpenZipProjectCmd" id="OpenZipFileCommandId" priority="0x0100" type="Button">
+        <Parent guid="guidOpenZipProjectCmd" id="MyMenuGroup" />
+        <CommandFlag>AllowParams</CommandFlag>
+        <CommandFlag>CommandWellOnly</CommandFlag>
+        <Strings>
+          <ButtonText>Open Project from Zip File</ButtonText>
+          <LocCanonicalName>.File.OpenFromZipFile</LocCanonicalName>
+        </Strings>
+      </Button>
+    </Buttons>
+  </Commands>
+
+  <Symbols>
+    <GuidSymbol name="guidPackage" value="{d2822e1b-2c7a-44b2-9be3-50a0428e5995}" />
+
+    <GuidSymbol name="guidOpenZipProjectCmd" value="{7946e212-a522-4445-b2d4-6dd240228eab}">
+      <IDSymbol name="MyMenuGroup" value="0x1020" />
+      <IDSymbol name="OpenZipFileCommandId" value="0x0100" />
+    </GuidSymbol>
+  </Symbols>
+</CommandTable>

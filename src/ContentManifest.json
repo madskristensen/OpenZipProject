@@ -1,0 +1,20 @@
+{
+  "$schema": "http://json.schemastore.org/vsix-manifestinjection",
+  "urlAssociations": [
+    {
+      "protocol": "vszip",
+      "displayName": "Visual Studio zip file handler",
+      "progId": "VisualStudio.vszip.[InstanceId]",
+      "defaultProgramRegistrationPath": "Software\\Microsoft\\VisualStudio_[InstanceId]\\Capabilities"
+    }
+  ],
+  "progIds": [
+    {
+      "id": "VisualStudio.vszip.[InstanceId]",
+      "displayName": "Visual Studio zip file handler",
+      "path": "[InstallDir]\\Common7\\IDE\\devenv.exe",
+      "arguments": "/zip",
+      "defaultIconPath": "[InstallDir]\\Common7\\IDE\\devenv.exe"
+    }
+  ]
+}

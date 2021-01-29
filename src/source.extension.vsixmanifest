@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="75295161-4c91-4eea-85e5-4c01f831e831" Version="1.0" Language="en-US" Publisher="Mads Kristensen" />
+        <Identity Id="75295161-4c91-4eea-85e5-4c01f831e831" Version="1.0.99999" Language="en-US" Publisher="Mads Kristensen" />
         <DisplayName>Open Zip Project</DisplayName>
         <Description xml:space="preserve">Allows you to open projects that have been zipped up into .zip files either from the local file sytem or remote URLs</Description>
         <MoreInfo>https://github.com/madskristensen/OpenZipProject</MoreInfo>
@@ -9,8 +9,8 @@
         <Icon>Resources\Icon.png</Icon>
         <PreviewImage>Resources\Icon.png</PreviewImage>
     </Metadata>
-    <Installation>
-        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[16.0, 17.0)" />
+    <Installation AllUsers="true">
+        <InstallationTarget Id="Microsoft.VisualStudio.Community" Version="[15.0.27413, 17.0)" />
     </Installation>
     <Dependencies>
         <Dependency Id="Microsoft.Framework.NDP" DisplayName="Microsoft .NET Framework" d:Source="Manual" Version="[4.5,)" />
