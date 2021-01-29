@@ -5,7 +5,7 @@
         <DisplayName>Open Zip Project</DisplayName>
         <Description xml:space="preserve">Allows you to open projects that have been zipped up into .zip files either from the local file sytem or remote URLs</Description>
         <MoreInfo>https://github.com/madskristensen/OpenZipProject</MoreInfo>
-        <License>Resource\LICENSE</License>
+        <License>Resources\LICENSE</License>
         <Icon>Resources\Icon.png</Icon>
         <PreviewImage>Resources\Icon.png</PreviewImage>
     </Metadata>
